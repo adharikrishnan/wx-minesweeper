@@ -1,4 +1,4 @@
-# WX-Minesweeper
+# Wx-Minesweeper
 A Minesweeper clone created with the WxWidgets GUI library. I understand it makes no sense to use a GUI library for a game, but it was more or less for learning purposes.
 ![Game](https://github.com/adharikrishnan/wx-minesweeper/blob/master/game.png)
 # Overview 
