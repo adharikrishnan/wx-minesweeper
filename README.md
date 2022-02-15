@@ -8,7 +8,7 @@ Win32 binaries are included for both debug and release configurations, so you ca
 
 If you are trying to build from source, [WxWidgets](https://www.wxwidgets.org/) is required ,along with Visual Studio (2019 or higher). WxWidgets also requires you to build the libraries from source before you can link to your project. There are no prebuilt libraries available. 
 
-A faster approach would be to use [vcpkg](https://vcpkg.io/en/index.html) packet manager. It's relatively easy to set up and the included JSON manifest file will take care of the dependencies. Beware, that files downloaded and built by vcpkg can be quite heavy.
+A faster approach would be to use [vcpkg](https://vcpkg.io/en/index.html) package manager. It's relatively easy to set up and the included JSON manifest file will take care of the dependencies. Beware, that files downloaded and built by vcpkg can be quite heavy.
 
 # Updates and Expansions 
 The game is still relatively basic and I have got a number of expansions and fixes planned for the future. On opening the game, the game defaults to Normal mode and the game must be restarted with the required difficulty. A separate menu would mostly likely streamline this. The difficulty settings can also be expanded on to include a larger or smaller ratio of tiles depending on the setting.
