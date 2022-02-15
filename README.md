@@ -1,5 +1,5 @@
 # WX-Minesweeper
-Simple Minesweeper clone created with the WxWidgets GUI library. I understand it makes no sense to use a GUI library for a game, but it was more or less for learning purposes.
+A Minesweeper clone created with the WxWidgets GUI library. I understand it makes no sense to use a GUI library for a game, but it was more or less for learning purposes.
 ![Game](https://github.com/adharikrishnan/wx-minesweeper/blob/master/game.png)
 # Overview 
 The game uses buttons to represent a 10x10 tile grid representing the minefield. The starts at the first button pressed. If a tile (button) has mine on it and is clicked, it's a game over. If there is no mine on the tile, the number of mines surrounding that tile is displayed on it. There are three difficulty options, Easy, Normal and Hard, which affect the number of mines in the field. If you have played Minesweeper before, you'll feel right at home.
