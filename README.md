@@ -6,7 +6,7 @@ The game uses buttons to represent a 10x10 tile grid representing the minefield.
 # Requirements
 Win32 binaries are included for both debug and release configurations, so you can run the executables if you want to try out the game. 
 
-If you are trying to build from source, [WxWidgets](https://www.wxwidgets.org/) is required ,along with Visual Studio (2019 or higher). WxWidgets also requires you to build the libraries from source before you can link to your project. There are no prebuilt libraries available. 
+If you are trying to build from source, [WxWidgets](https://www.wxwidgets.org/) is required, along with Visual Studio (2019 or higher). WxWidgets provides pre-built binaries for Windows, but building the library from source is recommended. 
 
 A faster approach would be to use [vcpkg](https://vcpkg.io/en/index.html) package manager. It's relatively easy to set up and the included JSON manifest file will take care of the dependencies. Beware, that files downloaded and built by vcpkg can be quite heavy.
 
